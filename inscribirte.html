@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>InglesArte - Inscribirte</title>
+    <!--
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
+        <LINK REL=StyleSheet HREF="css/estilos.css" TITLE="">
+
+    <!--para poner un icono en la pagina en el navegador-->
+    <link rel="icon" href="imagenes/IA.ico">
+</head>
+<body>
+    
+    <main>
+        <nav id="nav-ia">
+          
+            <img src="imagenes/portada2.jpg" alt="logo del nav" id="logodelnav">
+
+          
+            <ul id="listadelnav">
+                <li class="li-del-nav"><a href="index.html">Home</a></li>
+                <li class="li-del-nav"><a href="inscribirte.html">Inscribirte</a></li>
+                <li class="li-del-nav"><a href="instituto.html">El Instituto</a></li>
+                <li class="li-del-nav"><a href="agenda.html">Agenda</a></li>
+                <li class="li-del-nav"><a href="galeria.html">Galeria</a></li>
+            </ul>
+                       
+        </nav>
+
+          
+        <header></header>
+          
+        <section>
+            <hr>
+            <h2>Para inscribirte completa este formulario</h2>
+            <br>
+
+                <form action="https://formspree.io/f/xleaoaqw" method="post" target="_blank" id="form-inscripcion">
+            <fieldset>
+                <legend>Datos Personales:</legend>
+                <label  > Nombre:
+                    <input type="text" name="nombre" required placeholder="Nombre"> </label> <br><br>
+                <label > Apellido:
+                    <input type="text" name="Apellido" required placeholder="Nombre"> </label><br><br>
+                <label> Edad:
+                    <input type="number" name="edad" required placeholder="ingrese su edad">
+                </label>
+                        
+           </fieldset>
+           <br>
+           <fieldset >
+               <legend>Cursos disponibles actualmente:</legend>
+                    <label>
+                        seleccionar curso:
+                        <select name="Curso" required >
+                            <option value="guitarra">Guitarra</option>
+                            <option value="ingles">Ingles</option>
+                            <option value="Arte">Arte</option>
+                            <option value="teclado">Teclado</option>
+                          </select>
+                          
+        <br><br>
+                <label >
+                    Ingrese la fecha aproximada en la que desea iniciar el curso:
+                    <input type="date" name="fecha de inicio aprox que desea iniciar el curso" >
+                </label>          
+
+          </fieldset>
+          
+                        
+                    </label>Ingrese su E- mail:
+                    <input type="email" name="e-mail" placeholder="Ingrese su Email">
+                </label>
+                <br>
+                <hr>
+                <label>
+                    <p>Comentarios:</p> 
+                    <textarea name="comentarios" cols="30" rows="10"></textarea>
+
+                </label>
+                <br>
+                <fieldset>
+                    <legend> Desea recibir nuestro Newsletter semanal?</legend>                                         
+                    <label >
+                        <input type="radio" name="newsletter" value="si"> Si
+                    
+                        <input type="radio" name="newsletter" value="no"> No
+                    </label>                  
+
+                </fieldset>
+                <br>
+                <input type="reset" name="reset">
+                <input type="submit" name="submit">
+                </form>
+        </section>
+        <br>
+        <hr><hr>
+        <!-- boton de whatsapp-->
+        
+        <a href="https://wa.me/5492944617661/?text=quisiera%20consultar%20por%20el%20curso%20de:">
+            <img src="imagenes/logo whatsapp.png" alt="WhatsApp" class="whatsapp" target="_blank">
+            </a>
+          <!--icono Instagram-->
+          <a href="https://www.instagram.com/inglesarteespacio/?hl=en">
+            <img src="imagenes/Instagram-simbolo.ico" alt="Logo Instagram--" class="instagram" target="_blank"> </a>
+  
+            <!--icono face-->
+          <a href="https://es-la.facebook.com/inglesarteespaciocultural/">
+            <img src="imagenes/facebooklogo.jpg" alt="Logo facebook" class="facebook" target="_blank"> </a>
+            
+        
+    </main>
+    
+<footer>
+        <div id="mapa" style="text-align: center;">
+
+            <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.4418290593985!2d-58.651549135153815!3d-34.466314257747065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca3630164aca1%3A0x4edee04bf0cb3b48!2sIngl%C3%A9s%20Arte!5e0!3m2!1sen!2sar!4v1629051763936!5m2!1sen!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <br> 
+        
+        <div style="text-align: center;">
+            <i class="fas fa-map-marker-alt"></i> Direccion: Pasteur esq. Las heras, El talar, Buenos Aires.
+        </div>
+</footer>
+</body>
+</html>

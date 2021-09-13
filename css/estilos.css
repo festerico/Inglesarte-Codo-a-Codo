@@ -166,23 +166,95 @@ h3, h4{
     border-radius: 1rem;
     padding: 10px;
     font-size: 30px;
+    color: black;
       }
+
+.grid-item:hover{
+  background-color: rgba(0, 0, 0,0.6);
+  border: 2.3px solid black;
+
+} 
+
 #dos{
     grid-row-start:2;
   grid-row-end: 4;
-
 }
-#siete{
-  grid-row-start:3;
-  grid-row-end: 5;
-
+#imagendos {
+  width: 13vw;
+  display: flex;
+  justify-content:center;
+  margin: auto;
 }
+#tres{
+  grid-column-start:1;
+  grid-row-start: 1;
+  border-radius: 50%;
+  width: 12vw;
+  height: 20vh;
+}
+#imagentres{
+width: 9.5vw;
+border-radius: 50%;
+display: flex;
+justify-content:center;
+margin:auto;
+}
+
 #cuatro{
-  grid-row-start:1;
-  grid-row-end: 3;
-  grid-column-start:2;
-  grid-column-end: 5;
+grid-column-start:2;
+grid-row-start: 1;  
+border-radius: 50%;
+width: 32vw;
+height: 32vw;
 }
+#imagencuatro{
+width: 30vw;
+
+border-radius: 50%;
+display: flex;
+justify-content:center;
+margin: auto;
+}
+#cinco{
+  grid-row-start:4;
+  
+  grid-column-start: 1;
+  grid-column-end: 3;
+  height:60vh;
+}
+
+#imagencinco{
+width:35vw ;
+display: flex;
+justify-content:center;
+margin: auto;
+}
+
+#siete{
+  grid-row-start:4;
+  height: 60hv;
+  grid-column-start: 3;
+  grid-column-end: 5;
+
+}
+#imagensiete{
+  width: 30vw;
+  display: flex;
+  justify-content:center;
+  margin: auto;
+}
+#ocho{
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 4;
+}
+#imagenocho{
+  width: 21vw;
+  display: flex;
+  justify-content:center;
+  margin: auto;
+}
+
        
 
 

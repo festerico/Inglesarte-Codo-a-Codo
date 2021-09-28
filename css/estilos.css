@@ -281,7 +281,15 @@ td {
 /*form*/
 
 #form-inscripcion {
-    font-size: 3rem;
+    font-size: 4rem;
+}
+
+.fieldsetforminscripcion {
+    font-size: 2rem;
+}
+
+.optiondelformboostrap {
+    font-size: 1.5rem;
 }
 
 
@@ -591,27 +599,34 @@ footer {
 
 @media all and(max-width: 599px) {
     #nav-ia {
+        float: none;
         width: 90%;
         height: auto;
         margin-left: auto;
         margin-right: auto;
     }
     #DivLogodelNav {
+        float: none;
         width: 100%;
         height: auto;
         padding: 10px;
         box-sizing: border-box;
         text-align: center;
     }
-    #DivListadelNav {
+    #DivListadelNav .li-del-nav a {
         float: none;
         margin-top: 15px;
         margin-left: auto;
         margin-right: auto;
-        width: 400x;
-        height: fit-content;
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+        text-align: center;
     }
     #Idencabezado {
         visibility: hidden;
+    }
+    .li-del-nav a {
+        width: 100%;
     }
 }

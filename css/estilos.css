@@ -4,6 +4,13 @@
     padding: 0 0 0 0;
     font-size: 62.5%;
 }
+#nombreDelVisitante{
+    margin-top: 50px;
+      font-size: 4rem;
+      background-color: #FFFDBE;
+
+
+}
 
 #nav-ia {
     font-family: 'Bebas Neue', cursive;
@@ -141,7 +148,7 @@ td {
 #agenda {
     margin: auto;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-size: 6rem;
 }
 

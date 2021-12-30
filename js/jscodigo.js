@@ -2,6 +2,12 @@
 
 let nombre= prompt("Por favor indicanos tu nombre y apellido:");
 
-let texto= document.getElementById("nombreDelVisitante");
-texto= document.write("<h3> Hola buenos dias  <h3>" + nombre + "<h3> te invitamos a recorrer nuestra pagina.  <h3>");
 
+document.write(
+document.getElementById('nombreDelVisitante').innerhtml = " Hola buenos dias  " + nombre + " te invitamos a recorrer nuestra pagina");
+
+function ocultar(bOportunidades){
+	document.getElementById("demo").innerHTML = "PARA TENER MAS OPORTUNIDADES EN LA VIDA!"
+    var elemento = document.getElementById(bOportunidades);
+    elemento.style.display = "none";
+}

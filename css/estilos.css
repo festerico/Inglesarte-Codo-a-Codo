@@ -159,6 +159,25 @@ td {
     justify-content: center;
 }
 
+#bOportunidades {
+     color: #f5f5f5;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+    outline: none;
+    margin: 25px auto;
+    font-size: 2rem;
+}
+
+#bOportunidades:hover {
+  background-color:red;
+  border: 2.3px solid black;
+}
+
+#preguntaAgenda{
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 /*galeria*/
 

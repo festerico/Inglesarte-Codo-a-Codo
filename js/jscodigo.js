@@ -13,6 +13,6 @@ document.write(document.getElementById('nombreDelVisitante').innerhtml = " Hola 
 function ocultar(bOportunidades){
 	document.getElementById("demo").innerHTML = "PARA TENER MAS OPORTUNIDADES EN LA VIDA!"
     document.getElementById(bOportunidades).style.display = "none";
-    document.getElementById("animacion").innerHTML="<h1 class=\"animate__animated animate__bounceInDown\">An animated element</h1>";
+    document.getElementById("animacion").innerHTML="<h1 class=\"animate__animated animate__bounceInDown\">¡Comenza con nosotros!</h1>";
 
 }
